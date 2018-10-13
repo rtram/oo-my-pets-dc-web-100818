@@ -66,7 +66,7 @@ class Owner
   def sell_pets
     self.pets.collect do |animals|
       binding.pry
-      animal[1].collect {|animal_hash| animal_hash.mood = "nervous"}
+      animals[1].collect {|animal_hash| animal_hash.mood = "nervous"}
     end 
     self.pets.clear
   end 

@@ -23,4 +23,6 @@ class Owner
     self.all.length
   end 
   
+  
+  
 end

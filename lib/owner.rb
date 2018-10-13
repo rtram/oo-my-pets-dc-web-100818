@@ -2,7 +2,7 @@ require 'pry'
 
 class Owner
   
-  attr_accessor :human
+  attr_accessor :human, :name
   
   @@all = []
   
@@ -29,6 +29,10 @@ class Owner
   
   def say_species
     "I am a #{self.human}."
+  end 
+  
+  def name
+    
   end 
   
 end

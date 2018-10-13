@@ -70,7 +70,7 @@ class Owner
     self.pets.clear
   end 
   
-  def list.pets
+  def list_pets
     binding.pry
     self.pets 
   end 

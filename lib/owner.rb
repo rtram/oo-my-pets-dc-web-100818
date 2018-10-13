@@ -64,7 +64,10 @@ class Owner
   end 
   
   def sell_pets
+    self.pets
+    
+    
     self.pets.clear
-    # binding.pry
+    
   end 
 end

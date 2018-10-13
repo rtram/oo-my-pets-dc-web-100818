@@ -52,7 +52,7 @@ class Owner
   end 
   
   def walk_dogs
-    
+    Dog.mood =
   end 
   
 end

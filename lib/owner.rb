@@ -24,7 +24,7 @@ class Owner
   end 
   
   def species
-    
+    self.human
   end 
   
 end

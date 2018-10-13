@@ -64,10 +64,9 @@ class Owner
   end 
   
   def sell_pets
-    self.pets.collect |animals|
+    self.pets.collect do |animals|
       animal.collect {|animal_hash| animal_hash.mood = "nervous"}
     end 
     self.pets.clear
-    
   end 
 end

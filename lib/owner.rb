@@ -67,8 +67,6 @@ class Owner
     self.pets.collect |animals|
       animal.collect {|animal_hash| animal_hash.mood = "nervous"}
     end 
-    binding.pry
-    
     self.pets.clear
     
   end 

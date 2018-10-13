@@ -10,6 +10,7 @@ class Owner
   
   def initialize(human)
     @human = human
+    self.class.all <<  self
   end 
   
 end

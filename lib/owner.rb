@@ -17,7 +17,7 @@ class Owner
   end 
   
   def self.reset_all 
-    self.pet.clear
+    self.all.clear
   end 
   
   def self.count
@@ -64,7 +64,7 @@ class Owner
   end 
   
   def sell_pets
-    self.class.reset_all
-    
+    self.class.pets.clear
+    binding.pry
   end 
 end

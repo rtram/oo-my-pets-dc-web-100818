@@ -64,8 +64,10 @@ class Owner
   end 
   
   def sell_pets
-    self.pets
-    
+    self.pets.collect |animal_hash|
+      animal_hash
+    end 
+    binding.pry
     
     self.pets.clear
     

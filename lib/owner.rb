@@ -55,4 +55,8 @@ class Owner
     self.pets[:dogs].collect {|animal_hash| animal_hash.mood = "happy"}
   end 
   
+  def play_with_cats
+    self.pets[:cats].collect {|animal_hash| animal_hash.mood = "happy"}
+  end 
+  
 end

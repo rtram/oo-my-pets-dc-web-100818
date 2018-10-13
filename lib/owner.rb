@@ -38,6 +38,7 @@ class Owner
   
   def buy_fish(fish)
     name = Fish.new(fish)
+            binding.pry
     self.pets[:fish] << fish
   end 
   

@@ -7,9 +7,4 @@ class Dog
     @name = name
     @mood = "nervous"
   end 
-    
-  def self.mood
-    @mood = "happy"
-  end
-  
 end

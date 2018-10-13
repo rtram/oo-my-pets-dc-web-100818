@@ -32,7 +32,7 @@ class Owner
   end 
   
   def name
-    
+    binding.pry
   end 
   
 end

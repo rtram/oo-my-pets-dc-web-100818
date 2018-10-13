@@ -62,4 +62,8 @@ class Owner
   def feed_fish
     self.pets[:fishes].collect {|animal_hash| animal_hash.mood = "happy"}
   end 
+  
+  def sell_pets
+    
+  end 
 end

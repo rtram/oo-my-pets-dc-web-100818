@@ -69,4 +69,9 @@ class Owner
     end 
     self.pets.clear
   end 
+  
+  def list.pets
+    binding.pry
+    self.pets 
+  end 
 end

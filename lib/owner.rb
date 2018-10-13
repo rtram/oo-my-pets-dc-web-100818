@@ -52,7 +52,7 @@ class Owner
   end 
   
   def walk_dogs
-    self.pets[:dogs][0].mood = "happy"
+    self.pets[:dogs].collect.mood = "happy"
   end 
   
 end

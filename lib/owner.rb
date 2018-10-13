@@ -2,7 +2,7 @@ require 'pry'
 
 class Owner
   
-  attr_accessor :human, :name
+  attr_accessor :human, :name, :pets
   
   @@all = []
   
@@ -13,6 +13,7 @@ class Owner
   def initialize(human)
     @human = human
     self.class.all <<  self
+    @pets = {:fishes => [], :dogs => [], :cats => []}
   end 
   
   def self.reset_all 
